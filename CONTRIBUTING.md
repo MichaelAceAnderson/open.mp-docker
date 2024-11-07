@@ -62,7 +62,8 @@ To use the image, you can run the following command:
 ⚠️ **NOTE**: If you are running the image under a WSL environment, UDP ports can't be forwarded to the host machine. You will need to use the IP address of the WSL machine to connect to the server, which can be found by running `ip addr show eth0` in the WSL terminal.
 
 ```bash
-docker run -p 7777:7777/udp michaelace/open.mp-server:1.3.1.2748
+docker run -p 7777:7777/udp -e OMP_RCON__PASSWORD=newpassword michaelace/open.mp-server:1.3.1.2748
+
 ```
 
 For more informations on how to use the image, please refer to the [Docker Hub page](https://hub.docker.com/r/michaelace/open.mp-server).
