@@ -27,10 +27,18 @@ Types of changes:
 
 - [Changelog](#changelog)
   - [Table of Contents](#table-of-contents)
+  - [\[2.0.0\] - 2024-11-07](#200---2024-11-07)
+    - [Added in 2.0.0](#added-in-200)
   - [\[1.0.0\] - 2024-11-07](#100---2024-11-07)
     - [Added in 1.0.0](#added-in-100)
 
 <!-- ## [Unreleased] -->
+
+## [2.0.0] - 2024-11-07
+
+### Added in 2.0.0
+
+- Base image with automatic downloading of the latest open.mp server version
 
 ## [1.0.0] - 2024-11-07
 
