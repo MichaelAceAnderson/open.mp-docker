@@ -49,6 +49,29 @@
         }
       },
       {
+        "label": "build open.mp-v1.4.0.2779",
+        "type": "shell",
+        "options": {
+          "cwd": "${workspaceFolder}/open.mp-v1.4.0.2779"
+        },
+        "windows": {
+          "command": "wsl sh -c 'docker build . -t open.mp:v1.4.0.2779 && docker tag open.mp:v1.4.0.2779 michaelace/open.mp:v1.4.0.2779'",
+        },
+        "linux": {
+          "command": "docker build . -t open.mp:v1.4.0.2779 && docker tag open.mp:v1.4.0.2779 michaelace/open.mp:v1.4.0.2779",
+        },
+        "command": "",
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "isBackground": false,
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated"
+        }
+      },
+      {
         "label": "push open.mp-latest",
         "type": "shell",
         "options": {
@@ -86,5 +109,24 @@
           "panel": "dedicated"
         }
       },
+      {
+        "label": "push open.mp-v1.4.0.2779",
+        "type": "shell",
+        "options": {
+          "cwd": "${workspaceFolder}/open.mp-v1.4.0.2779"
+        },
+        "windows": {
+          "command": "wsl docker push michaelace/open.mp:v1.4.0.2779",
+        },
+        "linux": {
+          "command": "docker push michaelace/open.mp:v1.4.0.2779",
+        },
+        "command": "",
+        "isBackground": false,
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated"
+        }
+      }
     ]
   }

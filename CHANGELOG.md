@@ -27,6 +27,8 @@ Types of changes:
 
 - [Changelog](#changelog)
   - [Table of Contents](#table-of-contents)
+  - [\[2.2.0\] - 2025-01-22](#220---2025-01-22)
+    - [Added in 2.2.0](#added-in-220)
   - [\[2.1.1\] - 2024-11-07](#211---2024-11-07)
     - [Added in 2.1.1](#added-in-211)
   - [\[2.0.0\] - 2024-11-07](#200---2024-11-07)
@@ -34,7 +36,11 @@ Types of changes:
   - [\[1.0.0\] - 2024-11-07](#100---2024-11-07)
     - [Added in 1.0.0](#added-in-100)
 
-<!-- ## [Unreleased] -->
+## [2.2.0] - 2025-01-22
+
+### Added in 2.2.0
+
+- Added image for open.mp v1.4.0.2779
 
 ## [2.1.1] - 2024-11-07
 
